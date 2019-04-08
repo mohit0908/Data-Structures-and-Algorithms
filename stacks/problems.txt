@@ -1,0 +1,5 @@
+Stack problems:
+
+Stock span problem
+Next greater frequency element
+Number of NGEs to the right
