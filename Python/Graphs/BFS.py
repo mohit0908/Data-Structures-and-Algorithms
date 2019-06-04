@@ -69,5 +69,5 @@ if __name__ == '__main__':
 	g.addEdge(3,1)
 	g.addEdge(3,2)
 	g.printGraph()
-	g.BFS(2)
+	g.BFS(3)
 
