@@ -84,8 +84,12 @@ try:
             print('Enter 8 coordinates...')
             continue
         coordinates.extend([(num[0], num[1]),(num[2], num[3]),(num[4], num[5]),(num[6], num[7])])
-        print('Coordinates Entered:', coordinates)
-        print('Status:', check_square(coordinates))
+        status = check_square(coordinates)
+        if status is True:
+            status = 'Yes'
+        else:
+            status = 'No'
+        print(status)
 except:
     print('Enter integer input')
         
